@@ -1,5 +1,5 @@
 #python -m fastapi dev .\main.py
-#python -m uvicorn main:api --reload
+#python -m uvicorn server:api --reload
 from typing import Optional, List
 from enum import IntEnum
 from pydantic import BaseModel, Field
